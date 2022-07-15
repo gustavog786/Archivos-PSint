@@ -1,0 +1,36 @@
+Algoritmo e14exg4
+	Definir matriz, vector, i,j Como Entero
+	Dimension matriz(3,3)
+	Dimension vector[3]
+	
+	para i = 0 hasta 2
+		Para j = 0 hasta 2
+			matriz(i,j) = Aleatorio(1,9)
+			Escribir Sin Saltar  matriz(i,j) " "
+		FinPara
+		Escribir ""
+	FinPara
+	Escribir ""
+	Escribir "-------------------------------------------------"
+	
+	Para i = 0 hasta 2 Hacer
+		vector[i] = Aleatorio(1,9)
+		Escribir Sin Saltar vector[i] " "
+	FinPara
+	Escribir ""
+	Escribir "-----------------------------------------------"
+	
+	Para i = 0 hasta 2
+		para j = 0 hasta 2
+			Escribir sin saltar matriz(i,j) * vector[j] " "
+		FinPara
+		Escribir ""
+	FinPara
+	
+	
+FinAlgoritmo
+
+//Realizar un programa que permita visualizar el resultado del producto de una matriz de
+//enteros de 3x3 por un vector de 3 elementos. Los valores de la matriz y el vector pueden
+//inicializarse evitando así el ingreso de datos por teclado. Para conocer más acerca de cómo se
+//realiza la multiplicación entre matrices consultar el siguiente link:
